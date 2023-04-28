@@ -13,23 +13,25 @@
     />
   </head>
   <body>
-    <div
-      class="container border-2 border border-black rounded-4 text-center pt-2 pb-2 mt-lg-5 bg-warning-subtle"
-    >
-      <h1>Age in Days</h1>
-      <div class="row pt-2 pb-2">
-        <div class="col-6">
-          <button class="btn btn-outline-primary btn-lg" onclick="calc_days()">
-            Click me
-          </button>
-        </div>
-        <div class="col-6">
-          <button class="btn btn-outline-danger btn-lg" onclick="reset()">Reset</button>
+    <div class="container border border-black rounded-4 bg-danger-subtle mt-5 text-center">
+      <h1>Challenge:2 The Cat Generator</h1>
+      <button
+        class="btn btn-outline-success btn-lg mt-2 mb-2"
+        onclick="gen_cat()"
+      >
+        Generate Cat
+      </button>
+      <div class="row pt-3 pb-3" style="justify-content: space-around">
+       
         </div>
       </div>
-      <div class="mt-2" id="result"></div>
     </div>
 
     <script src="./script.js"></script>
   </body>
 </html>
+<style>
+  .col-4 {
+    padding: 10px;
+  }
+</style>
