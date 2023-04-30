@@ -22,26 +22,28 @@ console.log(fruits);
 console.log(users);
 console.log(users.pop());  // remove last elements
 console.log(users);
-users.push("abhi");     // add elements in last
-console.log(users); 
-console.log(users.shift())  // remove first elements
-console.log(users);
+// users.push("abhi");     // add elements in last
+// console.log(users); 
+// console.log(users.shift())  // remove first elements
+// console.log(users);
 
-let finarr=fruits.concat(users) // combining two array
-console.log(finarr)
-console.log(finarr.slice(1,5))  // split array from  index 1 to (5-1)
-console.log(finarr.reverse()) // reverse the array
+// let finarr=fruits.concat(users) // combining two array
+// console.log(finarr)
+// console.log(finarr.slice(1,5))  // split array from  index 1 to (5-1)
+// console.log(finarr.reverse()) // reverse the array
 
-console.log(users.sort());  // sort user array in alphabatical order
+// console.log(users.sort());  // sort user array in alphabatical order
  
-let somenum= [25,32,5,6,9,45,87,39]
-console.log(somenum.sort((a,b)=>{return a-b})); // somenum array sort in ascending order
-console.log(somenum.sort((a,b)=>{return b-a})); // somenum array sort in descending order
+// let somenum= [25,32,5,6,9,45,87,39]
+// console.log(somenum.sort((a,b)=>{return a-b})); // somenum array sort in ascending order
+// console.log(somenum.sort((a,b)=>{return b-a})); // somenum array sort in descending order
 
-console.log(somenum);
+// console.log(somenum);
 
-let emptyarr=new Array()
-for(let i=0;i<10;i++){
-    emptyarr.push(i)
-}
-console.log(emptyarr);
+// let emptyarr=new Array()
+// for(let i=0;i<10;i++){
+//     emptyarr.push(i)
+// }
+// console.log(emptyarr);
+
+// console.log(fruits.indexOf("orange")) // return the index of orange

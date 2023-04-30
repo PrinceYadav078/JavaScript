@@ -14,3 +14,4 @@ console.log(fruit.charAt(2))  // find character on the basis of index
 console.log(fruit[2])  // find character on the basis of index
 console.log(fruit.split('')) // split by a character and store in a array
 console.log(fruit.split(',')) // split by a comma and store in a aaray
+// console.log(fruit);
