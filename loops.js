@@ -23,3 +23,8 @@ for(user of users){
 for(user in users){
     console.log(user);
 }
+
+let employee=[{name:"prince",age:22},{name:"tanmay",age:24}]
+for(emp of employee){
+    console.log(emp);
+}
