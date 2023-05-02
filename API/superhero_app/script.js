@@ -10,16 +10,15 @@ const getRandomsuperhero=(id)=>{
     fetch(`${base_url}/${id}`).then(response=> response.json()).then(data=>{
         console.log(data)
         ShowsuperHero(data)
-        imgdiv.innerHTML +=`<div class="col-3 me-3 mb-2 border border-danger border-2  rounded-4 w-auto bg-danger-subtle
-        " style="height:550px">
+        imgdiv.innerHTML +=`<div class="col-3 me-3 mb-2 border border-danger border-2  rounded-4 w-auto bg-danger-subtle">
         <h1 >${data.name}</h1>
-        <img  src="${data.image.url}" alt="img" height=250 width=300/>
-         <p>INTELLIGENCE: ${data.powerstats.intelligence}</p>
-         <p>STRENGTH: ${data.powerstats.strength}</p>
-         <p>SPEED: ${data.powerstats.speed}</p>
-         <p>DURABILITY: ${data.powerstats.durability}</p>
-         <p>POWER: ${data.powerstats.power}</p>
-         <p>COMBAT: ${data.powerstats.combat}</p>
+        <img  src="${data.image.url}" alt="img" height=300 width=300/>
+         <p>🧠 INTELLIGENCE: ${data.powerstats.intelligence}</p>
+         <p>💪 STRENGTH: ${data.powerstats.strength}</p>
+         <p>⚡ SPEED: ${data.powerstats.speed}</p>
+         <p>🏋️‍♂️ DURABILITY: ${data.powerstats.durability}</p>
+         <p>📊 POWER: ${data.powerstats.power}</p>
+         <p>⚔️ COMBAT: ${data.powerstats.combat}</p>
         </div>`
     })
    
